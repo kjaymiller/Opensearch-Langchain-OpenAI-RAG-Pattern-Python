@@ -1,8 +1,10 @@
-# Implementing a Retrieval Augmented Generation (RAG) pattern with OpenAI and OpenSearch
+# Implementing a Retrieval Augmented Generation (RAG) pattern with OpenAI, OpenSearch, and LangChain
+
+Quickstart this workshop by using our pre-configured codespace!
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/aiven-labs/Opensearch-OpenAI-RAG-Pattern-with-Python)
 
-This notebook demonstrates how to use semantic search to retrieve relevant information from a dataset using the OpenAI API and [Aiven for OpenSearch®](https://aiven.io/opensearch).
+This notebook demonstrates how to use Opensearch, OpenAI and LangChain
 
 ## Why using OpenSearch as backend vector database
 
