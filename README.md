@@ -4,7 +4,7 @@ Quickstart this workshop by using our pre-configured codespace!
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/aiven-labs/Opensearch-OpenAI-RAG-Pattern-with-Python)
 
-This notebook demonstrates how to use Opensearch, OpenAI and LangChain
+This notebook demonstrates how to use Opensearch, OpenAI and LangChain.
 
 ## Why using OpenSearch as backend vector database
 
@@ -12,7 +12,11 @@ OpenSearch is a widely adopted open source search/analytics engine. It allows to
 
 ## Getting Started
 
-This repo uses a jupyter notebook to walk through the process of creating an OpenSearch datastore in Aiven and searching against it using the OpenAI API.
+This repo uses a jupyter notebook to walk through the process of creating an OpenSearch datastore in Aiven and searching against it using LangChain.
+
+## Prequisites
+
+To complete this lab you will need to ensure the following are completed.
 
 ### Setup your Aiven Account
 
@@ -47,7 +51,7 @@ Next, you will need to create an API key that will be used to authenticate your 
 - Give your key a name and select **All** for permissions. Select **Create secret key**
 - Copy the key and store it in a safe place.
 
-> !!! warning
+> [!Warning]
 > You will need it to authenticate your requests to the OpenAI API.
 
 ![Copy your API key](assets/openai-save-key.png)
@@ -79,6 +83,8 @@ You can select the image below to create a new codespace.
 
 ### Follow the notebook
 
-Follow the steps in [`notebook.ipynb` 🔗](./notebook.ipynb).
+Let's begin with downloading our data and ingesting it into Opensearch.
 
-[![Button to Open Jupyter Notebook](https://img.shields.io/badge/Open%20the%20Notebook-ec6147?style=flat-square&link=https%3A%2F%2Fgithub.com%2Fkjaymiller%2FOpensearch-OpenAI-RAG-Pattern-with-Python%2Fblob%2Fmain%2Fnotebook.ipynb)](./notebook.ipynb)
+Go to [1-ingesting-data.ipynb](./workshop/1-ingesting-data.ipynb) in the `workshops` foldedr or click the button below to begin the workshop.
+
+[![Button to Open Jupyter Notebook](https://img.shields.io/badge/1-Add%20your%20Data%20to%20OpenSearch-ec6147?style=for-the-badge)](./workshop/1-ingesting-data.ipynb)
