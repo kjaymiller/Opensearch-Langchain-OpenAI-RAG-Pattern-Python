@@ -1,7 +1,7 @@
-openai
-pandas
-arrow
 wget
 python-dotenv
 opensearch-py
 jupyter
+langchain
+langchain-openai
+rich
